@@ -2,6 +2,7 @@
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --logo-text-color: #2196F3;
+    --logo-text-color-footer: #FFFFFF;
     --hero-text-color: #FFFFFF;
     --accent-text-color: #2196F3;
     --contacts-text-color: rgba(255, 255, 255, 0.6);
@@ -116,11 +117,12 @@ header {
 .hero .title {
     color: var(--hero-text-color);
     
-    font-weight: 400; /* нужно смотреть что в настройках браузера по умолчанию */
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Section in index.html and portfolio */
@@ -251,7 +253,7 @@ header {
 /*  Logo Footer */
 
 .page-footer-logo {
-    color: var(--primary-text-color);
+    color: var(--logo-text-color-footer);
 }
 
 .page-footer-logo span {
@@ -272,6 +274,16 @@ header {
 
 .page-footer {
     background-color: #2F303A;
+}
+
+.footer-list .link-adress {
+    color:#FFFFFF;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .footer-list .link {
